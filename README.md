@@ -13,22 +13,22 @@ This is a Python-based Attendance Management System using:
 attendance_system/
 │
 ├── app/
-│   ├── __init__.py         # Initializes Flask app
-│   ├── models.py           # SQLAlchemy models
-│   ├── routes.py           # Flask API endpoints
-│   ├── utils.py            # Utility functions
+│   ├── __init__.py         
+│   ├── models.py           
+│   ├── routes.py           
+│   ├── utils.py            
 │
 ├── instance/
-│   └── ams.db              # SQLite database (auto-created)
+│   └── ams.db              
 │
 ├── streamlit_gui/
-│   ├── student_gui.py      # Streamlit UI for students
-│   ├── teacher_gui.py      # Streamlit UI for teachers
-│   └── students_faces/     # Stored student face data
+│   ├── student_gui.py      
+│   ├── teacher_gui.py      
+│   └── students_faces/     
 │
-├── create_teacher.py       # Script to add a default teacher and user
-├── run.py                  # Flask app launcher
-├── requirements.txt        # Python dependencies
+├── create_teacher.py       
+├── run.py                  
+├── requirements.txt        
 
 ----------------------------------
 ✅ Notes:
